@@ -10,6 +10,3 @@ print("True")
 
 # Add one more color to the end of the list, after blue. (Don't forget the comma , and quotes "")
 print(["red", "orange", "blue", "green"])
-'''
-did you want us to use .append to add to the
-'''
