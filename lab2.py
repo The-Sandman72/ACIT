@@ -5,7 +5,7 @@ GB = 1073741824
 num_entries = int(input("Please enter the number of entries per second: "))
 entry_size = int(input("Please enter the average number of bytes per entry: "))
 
-kb_size = (num_entries * entry_size) / KB
+kb_size = (num_entries / entry_size) * KB
 
 print("Storage Estimates")
 print(f"Per minute: {kb_size}KB")
