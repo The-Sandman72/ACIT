@@ -13,6 +13,6 @@ print('''|=====================================|
 |Storage Estimates                    |
 |=====================================|''')
 print(f"|Per minute: {kb_size}KB                 |")
-print(f"|Per minute: {mb_size}MB         |")
-print(f"|Per minute: {gb_size}GB  |")
+print(f"|Per hour: {mb_size}MB           |")
+print(f"|Per day: {gb_size}GB     |")
 print("|=====================================|")
