@@ -62,8 +62,7 @@ def getDayOfTheWeek(year, month, day):
 
     monthCodes = [1, 4, 4, 0, 2, 5, 0, 3, 6, 1, 4, 6]
     monthCode = monthCodes[month_value - 1]
-    if leapyear == True:
-        monthCode
+    
     day_of_week = [
         {'day': "Saturday", 'day_value': 0},
         {'day': "Sunday", 'day_value': 1},
